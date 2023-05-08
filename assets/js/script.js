@@ -15,8 +15,8 @@ let stw3 = document.getElementById("stw3")
 let list3 = document.getElementById("list3")
 let uri = 'https://swapi.dev/api/people/'
 let index1 = 1
-let index2 = 6
-let index3 = 11
+let index2 = 1
+let index3 = 1
 
 function* generator1 () {
 	while (index1 <= 5) {
@@ -25,13 +25,13 @@ function* generator1 () {
 }
 
 function* generator2 () {
-	while (index2 <= 5) {
+	while (index2 <= 12) {
 		yield index2++
 	}
 }
 
 function* generator3 () {
-	while (index3 <= 5) {
+	while (index3 <= 17) {
 		yield index3++
 	}
 }
